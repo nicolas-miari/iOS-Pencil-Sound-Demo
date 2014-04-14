@@ -465,7 +465,7 @@ Boolean initializeAudioProcessingGraph(void)
                                              &inputCallbackStructArray[busNumber]);
         
         if (result != noErr) {
-            NSLog(@"AUGraphSetNodeInputCallback() failed for bus no. %u", busNumber);
+            NSLog(@"AUGraphSetNodeInputCallback() failed for bus no. %u", (unsigned int)busNumber);
             return false;
         }
         

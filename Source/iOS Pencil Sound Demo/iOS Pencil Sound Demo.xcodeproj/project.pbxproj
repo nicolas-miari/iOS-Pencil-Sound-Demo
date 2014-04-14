@@ -16,7 +16,6 @@
 		1FBB4BF418FB82EC00318F5B /* TestScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBB4BE218FB82EC00318F5B /* TestScene.m */; };
 		1FBB4BF518FB82EC00318F5B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBB4BE418FB82EC00318F5B /* ViewController.m */; };
 		1FBB4BF618FB82EC00318F5B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1FBB4BE618FB82EC00318F5B /* InfoPlist.strings */; };
-		1FBB4BF718FB82EC00318F5B /* iOS Pencil Sound Demo-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1FBB4BE818FB82EC00318F5B /* iOS Pencil Sound Demo-Info.plist */; };
 		1FBB4BF818FB82EC00318F5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBB4BEB18FB82EC00318F5B /* main.m */; };
 		1FBB4BF918FB82EC00318F5B /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FBB4BED18FB82EC00318F5B /* Main_iPad.storyboard */; };
 		1FBB4BFA18FB82EC00318F5B /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FBB4BEF18FB82EC00318F5B /* Main_iPhone.storyboard */; };
@@ -199,7 +198,6 @@
 				1FBB4BFA18FB82EC00318F5B /* Main_iPhone.storyboard in Resources */,
 				1FBB4BFB18FB82EC00318F5B /* Images.xcassets in Resources */,
 				1FBB4BF918FB82EC00318F5B /* Main_iPad.storyboard in Resources */,
-				1FBB4BF718FB82EC00318F5B /* iOS Pencil Sound Demo-Info.plist in Resources */,
 				1FBB4BFC18FB82EC00318F5B /* Spaceship.png in Resources */,
 				1FBB4BF618FB82EC00318F5B /* InfoPlist.strings in Resources */,
 			);
