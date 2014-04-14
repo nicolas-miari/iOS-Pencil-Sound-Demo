@@ -6,8 +6,10 @@
 //  Copyright (c) 2014 Nicolas Miari. All rights reserved.
 //
 
-@import AVFoundation;
-@import AudioUnit;
+@import AVFoundation;               // Core Audio
+
+#import "SoundManager.h"            // Own header
+
 
 // .............................................................................
 
@@ -44,6 +46,29 @@ static AudioStreamBasicDescription      monoStreamFormat;
 
 
 // .............................................................................
+// C function prototypes (forward declarations)
+
+
+static OSStatus noiseRenderCallback(void*                         inRefCon,
+                                    AudioUnitRenderActionFlags*   ioActionFlags,
+                                    const AudioTimeStamp*         inTimeStamp,
+                                    UInt32                        inBusNumber,
+                                    UInt32                        inNumberFrames,
+                                    AudioBufferList*			  ioData );
+
+void setMixerInputBusGain(AudioUnitElement busNumber, Float32 gain);
+
+void setMixerOutputGain(Float32 gain);
+
+void setMixerInputBusEnabled(AudioUnitElement busNumber, Boolean enabled);
+
+Boolean initializeAudioSession(void);
+
+Boolean initializeAudioProcessingGraph(void);
+
+
+// .............................................................................
+// C Function definitions
 
 static OSStatus noiseRenderCallback (void*                         inRefCon,
                                      AudioUnitRenderActionFlags*   ioActionFlags,
@@ -669,9 +694,8 @@ Boolean initializeAudioProcessingGraph(void)
     }
 }
 
-// .............................................................................
 
-#import "SoundManager.h"
+// .............................................................................
 
 @implementation SoundManager
 {
@@ -686,9 +710,7 @@ Boolean initializeAudioProcessingGraph(void)
     static id defaultInstance = nil;
     
     static dispatch_once_t onceToken;
-    
     dispatch_once(&onceToken, ^{
-        
         defaultInstance = [self new];
     });
     
@@ -705,17 +727,14 @@ Boolean initializeAudioProcessingGraph(void)
     if ((self = [super init])) {
         
         if(!initializeAudioSession()){
-            
             return (self = nil);
         };
         
         if(!initializeAudioProcessingGraph()){
-            
             return (self = nil);
         };
         
         if(AUGraphStart(processingGraph) != noErr){
-
             NSLog(@"Error Starting Graph!");
             
             return (self = nil);
@@ -796,15 +815,12 @@ Boolean initializeAudioProcessingGraph(void)
     
     NSLog (@"Audio session was interrupted.");
     
-    /*
-    if (_playing) {
-		
-		self.interruptedDuringPlayback = YES;
+    
+    if (_rendering) {
 		
 		// Stop Graph
-		[self stopAUGraph];
+		[self pauseRender];
 	}
-     */
 }
 
 // .............................................................................
@@ -1050,6 +1066,8 @@ Boolean initializeAudioProcessingGraph(void)
 
 - (void) playNoise
 {
+    // Wraps the C function
+    
     setMixerInputBusEnabled(0, true);
 }
 
@@ -1057,6 +1075,8 @@ Boolean initializeAudioProcessingGraph(void)
 
 - (void) stopNoise
 {
+    // Wraps the C function
+    
     setMixerInputBusEnabled(0, false);
 }
 
@@ -1064,6 +1084,8 @@ Boolean initializeAudioProcessingGraph(void)
 
 - (void) setNoiseGain:(CGFloat) gain
 {
+    // Wraps the C function
+    
     setMixerInputBusGain(0, (Float32) gain);
 }
 
