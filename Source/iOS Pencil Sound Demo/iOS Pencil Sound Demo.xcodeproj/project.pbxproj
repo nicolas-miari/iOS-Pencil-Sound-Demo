@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F7A4D3818FB8B2F00B1A221 /* SoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7A4D3718FB8B2F00B1A221 /* SoundManager.m */; };
+		1FBB4BA018FB829A00318F5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FBB4B9F18FB829A00318F5B /* Foundation.framework */; };
+		1FBB4BA218FB829A00318F5B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FBB4BA118FB829A00318F5B /* CoreGraphics.framework */; };
+		1FBB4BA418FB829A00318F5B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FBB4BA318FB829A00318F5B /* UIKit.framework */; };
+		1FBB4BA618FB829B00318F5B /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FBB4BA518FB829B00318F5B /* SpriteKit.framework */; };
+		1FBB4BF318FB82EC00318F5B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBB4BE018FB82EC00318F5B /* AppDelegate.m */; };
+		1FBB4BF418FB82EC00318F5B /* TestScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBB4BE218FB82EC00318F5B /* TestScene.m */; };
+		1FBB4BF518FB82EC00318F5B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBB4BE418FB82EC00318F5B /* ViewController.m */; };
+		1FBB4BF618FB82EC00318F5B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1FBB4BE618FB82EC00318F5B /* InfoPlist.strings */; };
+		1FBB4BF718FB82EC00318F5B /* iOS Pencil Sound Demo-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1FBB4BE818FB82EC00318F5B /* iOS Pencil Sound Demo-Info.plist */; };
+		1FBB4BF818FB82EC00318F5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBB4BEB18FB82EC00318F5B /* main.m */; };
+		1FBB4BF918FB82EC00318F5B /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FBB4BED18FB82EC00318F5B /* Main_iPad.storyboard */; };
+		1FBB4BFA18FB82EC00318F5B /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FBB4BEF18FB82EC00318F5B /* Main_iPhone.storyboard */; };
+		1FBB4BFB18FB82EC00318F5B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FBB4BF118FB82EC00318F5B /* Images.xcassets */; };
+		1FBB4BFC18FB82EC00318F5B /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FBB4BF218FB82EC00318F5B /* Spaceship.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F7A4D3618FB8B2F00B1A221 /* SoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundManager.h; sourceTree = "<group>"; };
+		1F7A4D3718FB8B2F00B1A221 /* SoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundManager.m; sourceTree = "<group>"; };
+		1FBB4B9C18FB829A00318F5B /* iOS Pencil Sound Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Pencil Sound Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FBB4B9F18FB829A00318F5B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1FBB4BA118FB829A00318F5B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1FBB4BA318FB829A00318F5B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1FBB4BA518FB829B00318F5B /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		1FBB4BC818FB829B00318F5B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1FBB4BDF18FB82EC00318F5B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1FBB4BE018FB82EC00318F5B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1FBB4BE118FB82EC00318F5B /* TestScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestScene.h; sourceTree = "<group>"; };
+		1FBB4BE218FB82EC00318F5B /* TestScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestScene.m; sourceTree = "<group>"; };
+		1FBB4BE318FB82EC00318F5B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1FBB4BE418FB82EC00318F5B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1FBB4BE718FB82EC00318F5B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1FBB4BE818FB82EC00318F5B /* iOS Pencil Sound Demo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iOS Pencil Sound Demo-Info.plist"; sourceTree = "<group>"; };
+		1FBB4BEA18FB82EC00318F5B /* iOS Pencil Sound Demo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "iOS Pencil Sound Demo-Prefix.pch"; sourceTree = "<group>"; };
+		1FBB4BEB18FB82EC00318F5B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1FBB4BEE18FB82EC00318F5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		1FBB4BF018FB82EC00318F5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		1FBB4BF118FB82EC00318F5B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1FBB4BF218FB82EC00318F5B /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FBB4B9918FB829A00318F5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FBB4BA218FB829A00318F5B /* CoreGraphics.framework in Frameworks */,
+				1FBB4BA418FB829A00318F5B /* UIKit.framework in Frameworks */,
+				1FBB4BA618FB829B00318F5B /* SpriteKit.framework in Frameworks */,
+				1FBB4BA018FB829A00318F5B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FBB4B9318FB829A00318F5B = {
+			isa = PBXGroup;
+			children = (
+				1FBB4BDE18FB82EC00318F5B /* Classes */,
+				1FBB4BE518FB82EC00318F5B /* Config */,
+				1FBB4BE918FB82EC00318F5B /* Other Sources */,
+				1FBB4BEC18FB82EC00318F5B /* Resources */,
+				1FBB4B9E18FB829A00318F5B /* Frameworks */,
+				1FBB4B9D18FB829A00318F5B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FBB4B9D18FB829A00318F5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FBB4B9C18FB829A00318F5B /* iOS Pencil Sound Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FBB4B9E18FB829A00318F5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FBB4B9F18FB829A00318F5B /* Foundation.framework */,
+				1FBB4BA118FB829A00318F5B /* CoreGraphics.framework */,
+				1FBB4BA318FB829A00318F5B /* UIKit.framework */,
+				1FBB4BA518FB829B00318F5B /* SpriteKit.framework */,
+				1FBB4BC818FB829B00318F5B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1FBB4BDE18FB82EC00318F5B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1FBB4BDF18FB82EC00318F5B /* AppDelegate.h */,
+				1FBB4BE018FB82EC00318F5B /* AppDelegate.m */,
+				1FBB4BE118FB82EC00318F5B /* TestScene.h */,
+				1FBB4BE218FB82EC00318F5B /* TestScene.m */,
+				1FBB4BE318FB82EC00318F5B /* ViewController.h */,
+				1FBB4BE418FB82EC00318F5B /* ViewController.m */,
+				1F7A4D3618FB8B2F00B1A221 /* SoundManager.h */,
+				1F7A4D3718FB8B2F00B1A221 /* SoundManager.m */,
+			);
+			name = Classes;
+			path = "Project Files/Classes";
+			sourceTree = "<group>";
+		};
+		1FBB4BE518FB82EC00318F5B /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				1FBB4BE818FB82EC00318F5B /* iOS Pencil Sound Demo-Info.plist */,
+				1FBB4BE618FB82EC00318F5B /* InfoPlist.strings */,
+			);
+			name = Config;
+			path = "Project Files/Config";
+			sourceTree = "<group>";
+		};
+		1FBB4BE918FB82EC00318F5B /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1FBB4BEA18FB82EC00318F5B /* iOS Pencil Sound Demo-Prefix.pch */,
+				1FBB4BEB18FB82EC00318F5B /* main.m */,
+			);
+			name = "Other Sources";
+			path = "Project Files/Other Sources";
+			sourceTree = "<group>";
+		};
+		1FBB4BEC18FB82EC00318F5B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1FBB4BED18FB82EC00318F5B /* Main_iPad.storyboard */,
+				1FBB4BEF18FB82EC00318F5B /* Main_iPhone.storyboard */,
+				1FBB4BF118FB82EC00318F5B /* Images.xcassets */,
+				1FBB4BF218FB82EC00318F5B /* Spaceship.png */,
+			);
+			name = Resources;
+			path = "Project Files/Resources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FBB4B9B18FB829A00318F5B /* iOS Pencil Sound Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FBB4BD818FB829B00318F5B /* Build configuration list for PBXNativeTarget "iOS Pencil Sound Demo" */;
+			buildPhases = (
+				1FBB4B9818FB829A00318F5B /* Sources */,
+				1FBB4B9918FB829A00318F5B /* Frameworks */,
+				1FBB4B9A18FB829A00318F5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS Pencil Sound Demo";
+			productName = "iOS Pencil Sound Demo";
+			productReference = 1FBB4B9C18FB829A00318F5B /* iOS Pencil Sound Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FBB4B9418FB829A00318F5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Nicolas Miari";
+			};
+			buildConfigurationList = 1FBB4B9718FB829A00318F5B /* Build configuration list for PBXProject "iOS Pencil Sound Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FBB4B9318FB829A00318F5B;
+			productRefGroup = 1FBB4B9D18FB829A00318F5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FBB4B9B18FB829A00318F5B /* iOS Pencil Sound Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FBB4B9A18FB829A00318F5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FBB4BFA18FB82EC00318F5B /* Main_iPhone.storyboard in Resources */,
+				1FBB4BFB18FB82EC00318F5B /* Images.xcassets in Resources */,
+				1FBB4BF918FB82EC00318F5B /* Main_iPad.storyboard in Resources */,
+				1FBB4BF718FB82EC00318F5B /* iOS Pencil Sound Demo-Info.plist in Resources */,
+				1FBB4BFC18FB82EC00318F5B /* Spaceship.png in Resources */,
+				1FBB4BF618FB82EC00318F5B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FBB4B9818FB829A00318F5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FBB4BF518FB82EC00318F5B /* ViewController.m in Sources */,
+				1FBB4BF418FB82EC00318F5B /* TestScene.m in Sources */,
+				1FBB4BF818FB82EC00318F5B /* main.m in Sources */,
+				1F7A4D3818FB8B2F00B1A221 /* SoundManager.m in Sources */,
+				1FBB4BF318FB82EC00318F5B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1FBB4BE618FB82EC00318F5B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FBB4BE718FB82EC00318F5B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1FBB4BED18FB82EC00318F5B /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FBB4BEE18FB82EC00318F5B /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		1FBB4BEF18FB82EC00318F5B /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FBB4BF018FB82EC00318F5B /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FBB4BD618FB829B00318F5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1FBB4BD718FB829B00318F5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FBB4BD918FB829B00318F5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Project Files/Other Sources/iOS Pencil Sound Demo-Prefix.pch";
+				INFOPLIST_FILE = "Project Files/Config/iOS Pencil Sound Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1FBB4BDA18FB829B00318F5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Project Files/Other Sources/iOS Pencil Sound Demo-Prefix.pch";
+				INFOPLIST_FILE = "Project Files/Config/iOS Pencil Sound Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FBB4B9718FB829A00318F5B /* Build configuration list for PBXProject "iOS Pencil Sound Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FBB4BD618FB829B00318F5B /* Debug */,
+				1FBB4BD718FB829B00318F5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FBB4BD818FB829B00318F5B /* Build configuration list for PBXNativeTarget "iOS Pencil Sound Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FBB4BD918FB829B00318F5B /* Debug */,
+				1FBB4BDA18FB829B00318F5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FBB4B9418FB829A00318F5B /* Project object */;
+}
