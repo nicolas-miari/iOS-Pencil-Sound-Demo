@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F7A4D3818FB8B2F00B1A221 /* SoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7A4D3718FB8B2F00B1A221 /* SoundManager.m */; };
 		1FBB4BA018FB829A00318F5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FBB4B9F18FB829A00318F5B /* Foundation.framework */; };
 		1FBB4BA218FB829A00318F5B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FBB4BA118FB829A00318F5B /* CoreGraphics.framework */; };
 		1FBB4BA418FB829A00318F5B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FBB4BA318FB829A00318F5B /* UIKit.framework */; };
@@ -24,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F7A4D3618FB8B2F00B1A221 /* SoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundManager.h; sourceTree = "<group>"; };
+		1F7A4D3718FB8B2F00B1A221 /* SoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundManager.m; sourceTree = "<group>"; };
 		1FBB4B9C18FB829A00318F5B /* iOS Pencil Sound Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Pencil Sound Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FBB4B9F18FB829A00318F5B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1FBB4BA118FB829A00318F5B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -102,6 +105,8 @@
 				1FBB4BE218FB82EC00318F5B /* TestScene.m */,
 				1FBB4BE318FB82EC00318F5B /* ViewController.h */,
 				1FBB4BE418FB82EC00318F5B /* ViewController.m */,
+				1F7A4D3618FB8B2F00B1A221 /* SoundManager.h */,
+				1F7A4D3718FB8B2F00B1A221 /* SoundManager.m */,
 			);
 			name = Classes;
 			path = "Project Files/Classes";
@@ -210,6 +215,7 @@
 				1FBB4BF518FB82EC00318F5B /* ViewController.m in Sources */,
 				1FBB4BF418FB82EC00318F5B /* TestScene.m in Sources */,
 				1FBB4BF818FB82EC00318F5B /* main.m in Sources */,
+				1F7A4D3818FB8B2F00B1A221 /* SoundManager.m in Sources */,
 				1FBB4BF318FB82EC00318F5B /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,6 +369,7 @@
 				1FBB4BDA18FB829B00318F5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
