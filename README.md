@@ -1,4 +1,4 @@
-iOS-Pencil-Sound-Demo
+iOS Pencil Sound Demo
 =====================
 
 This demo project uses Core Audio to simulate the sound of a pencil running on paper, 
