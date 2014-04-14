@@ -2,7 +2,7 @@
 //  SoundManager.m
 //  iOS Pencil Sound Demo
 //
-//  Created by n.miari on 4/14/14.
+//  Created by Nicolás Miari on 4/14/14.
 //  Copyright (c) 2014 Nicolas Miari. All rights reserved.
 //
 
