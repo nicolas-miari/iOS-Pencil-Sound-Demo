@@ -20,13 +20,12 @@
 		1FBB4BF918FB82EC00318F5B /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FBB4BED18FB82EC00318F5B /* Main_iPad.storyboard */; };
 		1FBB4BFA18FB82EC00318F5B /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FBB4BEF18FB82EC00318F5B /* Main_iPhone.storyboard */; };
 		1FBB4BFB18FB82EC00318F5B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FBB4BF118FB82EC00318F5B /* Images.xcassets */; };
-		1FBB4BFC18FB82EC00318F5B /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FBB4BF218FB82EC00318F5B /* Spaceship.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1F7A4D3618FB8B2F00B1A221 /* SoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundManager.h; sourceTree = "<group>"; };
 		1F7A4D3718FB8B2F00B1A221 /* SoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundManager.m; sourceTree = "<group>"; };
-		1FBB4B9C18FB829A00318F5B /* iOS Pencil Sound Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Pencil Sound Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FBB4B9C18FB829A00318F5B /* Pencil Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pencil Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FBB4B9F18FB829A00318F5B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1FBB4BA118FB829A00318F5B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		1FBB4BA318FB829A00318F5B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -45,7 +44,6 @@
 		1FBB4BEE18FB82EC00318F5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		1FBB4BF018FB82EC00318F5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		1FBB4BF118FB82EC00318F5B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		1FBB4BF218FB82EC00318F5B /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +76,7 @@
 		1FBB4B9D18FB829A00318F5B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1FBB4B9C18FB829A00318F5B /* iOS Pencil Sound Demo.app */,
+				1FBB4B9C18FB829A00318F5B /* Pencil Demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -137,7 +135,6 @@
 				1FBB4BED18FB82EC00318F5B /* Main_iPad.storyboard */,
 				1FBB4BEF18FB82EC00318F5B /* Main_iPhone.storyboard */,
 				1FBB4BF118FB82EC00318F5B /* Images.xcassets */,
-				1FBB4BF218FB82EC00318F5B /* Spaceship.png */,
 			);
 			name = Resources;
 			path = "Project Files/Resources";
@@ -160,7 +157,7 @@
 			);
 			name = "iOS Pencil Sound Demo";
 			productName = "iOS Pencil Sound Demo";
-			productReference = 1FBB4B9C18FB829A00318F5B /* iOS Pencil Sound Demo.app */;
+			productReference = 1FBB4B9C18FB829A00318F5B /* Pencil Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -198,7 +195,6 @@
 				1FBB4BFA18FB82EC00318F5B /* Main_iPhone.storyboard in Resources */,
 				1FBB4BFB18FB82EC00318F5B /* Images.xcassets in Resources */,
 				1FBB4BF918FB82EC00318F5B /* Main_iPad.storyboard in Resources */,
-				1FBB4BFC18FB82EC00318F5B /* Spaceship.png in Resources */,
 				1FBB4BF618FB82EC00318F5B /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,7 +324,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Project Files/Other Sources/iOS Pencil Sound Demo-Prefix.pch";
 				INFOPLIST_FILE = "Project Files/Config/iOS Pencil Sound Demo-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Pencil Demo";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -342,7 +338,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Project Files/Other Sources/iOS Pencil Sound Demo-Prefix.pch";
 				INFOPLIST_FILE = "Project Files/Config/iOS Pencil Sound Demo-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Pencil Demo";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
 			};
