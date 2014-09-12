@@ -68,7 +68,7 @@
         SKLabelNode* myLabel = [SKLabelNode labelNodeWithFontNamed:@"Avenir"];
         
         [myLabel setText:@"(Drag Anywhere)"];
-        [myLabel setFontSize:30.0f];
+        [myLabel setFontSize:24.0f];
         [myLabel setFontColor:[UIColor darkGrayColor]];
         [myLabel setPosition:CGPointMake(CGRectGetMidX(self.frame), CGRectGetMidY(self.frame))];
         
